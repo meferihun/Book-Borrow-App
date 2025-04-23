@@ -12,3 +12,18 @@ C:\Users\mefer\source\repos\Book Borrow App\Book Borrow App\obj\Debug\net9.0\ref
 C:\Users\mefer\source\repos\Book Borrow App\Book Borrow App\obj\Debug\net9.0\Book Borrow App.pdb
 C:\Users\mefer\source\repos\Book Borrow App\Book Borrow App\obj\Debug\net9.0\Book Borrow App.genruntimeconfig.cache
 C:\Users\mefer\source\repos\Book Borrow App\Book Borrow App\obj\Debug\net9.0\ref\Book Borrow App.dll
+C:\Users\mefer\Desktop\Book-Borrow-App\Book Borrow App\bin\Debug\net9.0\Book Borrow App.exe
+C:\Users\mefer\Desktop\Book-Borrow-App\Book Borrow App\bin\Debug\net9.0\Book Borrow App.deps.json
+C:\Users\mefer\Desktop\Book-Borrow-App\Book Borrow App\bin\Debug\net9.0\Book Borrow App.runtimeconfig.json
+C:\Users\mefer\Desktop\Book-Borrow-App\Book Borrow App\bin\Debug\net9.0\Book Borrow App.dll
+C:\Users\mefer\Desktop\Book-Borrow-App\Book Borrow App\bin\Debug\net9.0\Book Borrow App.pdb
+C:\Users\mefer\Desktop\Book-Borrow-App\Book Borrow App\obj\Debug\net9.0\Book Borrow App.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mefer\Desktop\Book-Borrow-App\Book Borrow App\obj\Debug\net9.0\Book Borrow App.AssemblyInfoInputs.cache
+C:\Users\mefer\Desktop\Book-Borrow-App\Book Borrow App\obj\Debug\net9.0\Book Borrow App.AssemblyInfo.cs
+C:\Users\mefer\Desktop\Book-Borrow-App\Book Borrow App\obj\Debug\net9.0\Book Borrow App.csproj.CoreCompileInputs.cache
+C:\Users\mefer\Desktop\Book-Borrow-App\Book Borrow App\obj\Debug\net9.0\Book Borrow App.sourcelink.json
+C:\Users\mefer\Desktop\Book-Borrow-App\Book Borrow App\obj\Debug\net9.0\Book Borrow App.dll
+C:\Users\mefer\Desktop\Book-Borrow-App\Book Borrow App\obj\Debug\net9.0\refint\Book Borrow App.dll
+C:\Users\mefer\Desktop\Book-Borrow-App\Book Borrow App\obj\Debug\net9.0\Book Borrow App.pdb
+C:\Users\mefer\Desktop\Book-Borrow-App\Book Borrow App\obj\Debug\net9.0\Book Borrow App.genruntimeconfig.cache
+C:\Users\mefer\Desktop\Book-Borrow-App\Book Borrow App\obj\Debug\net9.0\ref\Book Borrow App.dll

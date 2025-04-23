@@ -1,29 +1,29 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Book_Borrow_App
 {
     internal class Print
     {
-        private readonly List<string> _options;
+        private readonly Dictionary<string, Action> _menuActions;
 
         public int CurrentIndex { get; private set; }
 
-        public Print(List<string> options)
+        public Print(Dictionary<string, Action> menuActions)
         {
-            _options = options;
+            _menuActions = menuActions;
             CurrentIndex = 0;
         }
 
-       public void PrintMenu()
-       {
-            Console.Clear();
-            DisplayMenu();
-            HandleInput();
-       }
+        public void PrintMenu()
+        {
+            while (true)
+            {
+                Console.Clear();
+                DisplayMenu();
+                HandleInput();
+            }
+        }
 
         private void HandleInput()
         {
@@ -32,15 +32,17 @@ namespace Book_Borrow_App
             switch (keyInfo.Key)
             {
                 case ConsoleKey.UpArrow:
-                    CurrentIndex = (CurrentIndex - 1 + _options.Count) % _options.Count;
+                    CurrentIndex = (CurrentIndex - 1 + _menuActions.Count) % _menuActions.Count;
                     break;
 
                 case ConsoleKey.DownArrow:
-                    CurrentIndex = (CurrentIndex + 1 + _options.Count) % _options.Count;
+                    CurrentIndex = (CurrentIndex + 1 + _menuActions.Count) % _menuActions.Count;
                     break;
 
                 case ConsoleKey.Enter:
-                    Environment.Exit(0);
+                    var selectedOption = _menuActions.ElementAt(CurrentIndex).Key;
+                    var manageOption = new ManageOption(_menuActions);
+                    manageOption.Manage(selectedOption);
                     break;
 
                 default:
@@ -55,15 +57,15 @@ namespace Book_Borrow_App
             Console.WriteLine("                   Library Book Borrow                   ");
             Console.ResetColor();
 
-            foreach (var option in _options)
+            foreach (var option in _menuActions.Keys)
             {
-                if (option == _options[CurrentIndex])
+                if (option == _menuActions.ElementAt(CurrentIndex).Key)
                 {
                     Console.ForegroundColor = ConsoleColor.Green;
                     Console.WriteLine($"---> {option} <---");
                     Console.ResetColor();
                 }
-                else 
+                else
                     Console.WriteLine($"     {option}     ");
             }
         }

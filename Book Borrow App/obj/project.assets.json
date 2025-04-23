@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mefer\\source\\repos\\Book Borrow App\\Book Borrow App\\Book Borrow App.csproj",
+      "projectUniqueName": "C:\\Users\\mefer\\Desktop\\Book-Borrow-App\\Book Borrow App\\Book Borrow App.csproj",
       "projectName": "Book Borrow App",
-      "projectPath": "C:\\Users\\mefer\\source\\repos\\Book Borrow App\\Book Borrow App\\Book Borrow App.csproj",
+      "projectPath": "C:\\Users\\mefer\\Desktop\\Book-Borrow-App\\Book Borrow App\\Book Borrow App.csproj",
       "packagesPath": "C:\\Users\\mefer\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mefer\\source\\repos\\Book Borrow App\\Book Borrow App\\obj\\",
+      "outputPath": "C:\\Users\\mefer\\Desktop\\Book-Borrow-App\\Book Borrow App\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,21 +1,27 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Book_Borrow_App
 {
     internal class ManageOption
     {
-        private string _selectedOption;
-        private List<string> _selectedOptionList;
+        private readonly Dictionary<string, Action> _menuActions;
 
-        public ManageOption(List<string> options, string selectedOption) 
-        { 
-            _selectedOption = selectedOption;
+        public ManageOption(Dictionary<string, Action> menuActions)
+        {
+            _menuActions = menuActions;
         }
 
-
+        public void Manage(string selectedOption)
+        {
+            if (_menuActions.ContainsKey(selectedOption))
+            {
+                _menuActions[selectedOption].Invoke();
+            }
+            else
+            {
+                Console.WriteLine("Invalid option");
+            }
+        }
     }
 }

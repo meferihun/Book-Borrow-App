@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "name": "John Doe",
+    "birthdate": "1990-01-01",
+    "sex": "M"
+  },
+  {
+    "id": 2,
+    "name": "Jane Smith",
+    "birthdate": "2001-12-12",
+    "sex": "F"
+  }
+]
+  
+  
