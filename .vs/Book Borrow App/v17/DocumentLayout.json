@@ -3,30 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\mefer\\Desktop\\Book-Borrow-App\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mefer\\Desktop\\Book-Borrow-App\\Book Borrow App\\bin\\Debug\\net9.0\\books.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Book Borrow App\\bin\\Debug\\net9.0\\books.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mefer\\Desktop\\Book-Borrow-App\\Book Borrow App\\bin\\Debug\\net9.0\\users.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Book Borrow App\\bin\\Debug\\net9.0\\users.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8343A1FC-2D21-491E-81D7-57FDA2F3DCDE}|Book Borrow App\\Book Borrow App.csproj|c:\\users\\mefer\\desktop\\book-borrow-app\\book borrow app\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8343A1FC-2D21-491E-81D7-57FDA2F3DCDE}|Book Borrow App\\Book Borrow App.csproj|solutionrelative:book borrow app\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8343A1FC-2D21-491E-81D7-57FDA2F3DCDE}|Book Borrow App\\Book Borrow App.csproj|c:\\users\\mefer\\desktop\\book-borrow-app\\book borrow app\\libraryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8343A1FC-2D21-491E-81D7-57FDA2F3DCDE}|Book Borrow App\\Book Borrow App.csproj|solutionrelative:book borrow app\\libraryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8343A1FC-2D21-491E-81D7-57FDA2F3DCDE}|Book Borrow App\\Book Borrow App.csproj|c:\\users\\mefer\\desktop\\book-borrow-app\\book borrow app\\libraryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8343A1FC-2D21-491E-81D7-57FDA2F3DCDE}|Book Borrow App\\Book Borrow App.csproj|solutionrelative:book borrow app\\libraryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8343A1FC-2D21-491E-81D7-57FDA2F3DCDE}|Book Borrow App\\Book Borrow App.csproj|c:\\users\\mefer\\desktop\\book-borrow-app\\book borrow app\\filemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8343A1FC-2D21-491E-81D7-57FDA2F3DCDE}|Book Borrow App\\Book Borrow App.csproj|solutionrelative:book borrow app\\filemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8343A1FC-2D21-491E-81D7-57FDA2F3DCDE}|Book Borrow App\\Book Borrow App.csproj|c:\\users\\mefer\\desktop\\book-borrow-app\\book borrow app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8343A1FC-2D21-491E-81D7-57FDA2F3DCDE}|Book Borrow App\\Book Borrow App.csproj|solutionrelative:book borrow app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -35,16 +11,12 @@
       "RelativeMoniker": "D:0:0:{8343A1FC-2D21-491E-81D7-57FDA2F3DCDE}|Book Borrow App\\Book Borrow App.csproj|solutionrelative:book borrow app\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8343A1FC-2D21-491E-81D7-57FDA2F3DCDE}|Book Borrow App\\Book Borrow App.csproj|c:\\users\\mefer\\desktop\\book-borrow-app\\book borrow app\\bookinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8343A1FC-2D21-491E-81D7-57FDA2F3DCDE}|Book Borrow App\\Book Borrow App.csproj|solutionrelative:book borrow app\\bookinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8343A1FC-2D21-491E-81D7-57FDA2F3DCDE}|Book Borrow App\\Book Borrow App.csproj|c:\\users\\mefer\\desktop\\book-borrow-app\\book borrow app\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8343A1FC-2D21-491E-81D7-57FDA2F3DCDE}|Book Borrow App\\Book Borrow App.csproj|solutionrelative:book borrow app\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8343A1FC-2D21-491E-81D7-57FDA2F3DCDE}|Book Borrow App\\Book Borrow App.csproj|c:\\users\\mefer\\desktop\\book-borrow-app\\book borrow app\\print.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8343A1FC-2D21-491E-81D7-57FDA2F3DCDE}|Book Borrow App\\Book Borrow App.csproj|solutionrelative:book borrow app\\print.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8343A1FC-2D21-491E-81D7-57FDA2F3DCDE}|Book Borrow App\\Book Borrow App.csproj|c:\\users\\mefer\\desktop\\book-borrow-app\\book borrow app\\manageoption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8343A1FC-2D21-491E-81D7-57FDA2F3DCDE}|Book Borrow App\\Book Borrow App.csproj|solutionrelative:book borrow app\\manageoption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,78 +26,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 344,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "users.json",
-              "DocumentMoniker": "C:\\Users\\mefer\\Desktop\\Book-Borrow-App\\Book Borrow App\\bin\\Debug\\net9.0\\users.json",
-              "RelativeDocumentMoniker": "Book Borrow App\\bin\\Debug\\net9.0\\users.json",
-              "ToolTip": "C:\\Users\\mefer\\Desktop\\Book-Borrow-App\\Book Borrow App\\bin\\Debug\\net9.0\\users.json",
-              "RelativeToolTip": "Book Borrow App\\bin\\Debug\\net9.0\\users.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-23T17:34:00.669Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "books.json",
-              "DocumentMoniker": "C:\\Users\\mefer\\Desktop\\Book-Borrow-App\\Book Borrow App\\bin\\Debug\\net9.0\\books.json",
-              "RelativeDocumentMoniker": "Book Borrow App\\bin\\Debug\\net9.0\\books.json",
-              "ToolTip": "C:\\Users\\mefer\\Desktop\\Book-Borrow-App\\Book Borrow App\\bin\\Debug\\net9.0\\books.json",
-              "RelativeToolTip": "Book Borrow App\\bin\\Debug\\net9.0\\books.json",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-23T17:34:00.504Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "BookInfo.cs",
-              "DocumentMoniker": "C:\\Users\\mefer\\Desktop\\Book-Borrow-App\\Book Borrow App\\BookInfo.cs",
-              "RelativeDocumentMoniker": "Book Borrow App\\BookInfo.cs",
-              "ToolTip": "C:\\Users\\mefer\\Desktop\\Book-Borrow-App\\Book Borrow App\\BookInfo.cs",
-              "RelativeToolTip": "Book Borrow App\\BookInfo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAUAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T16:48:18.537Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Book.cs",
-              "DocumentMoniker": "C:\\Users\\mefer\\Desktop\\Book-Borrow-App\\Book Borrow App\\Book.cs",
-              "RelativeDocumentMoniker": "Book Borrow App\\Book.cs",
-              "ToolTip": "C:\\Users\\mefer\\Desktop\\Book-Borrow-App\\Book Borrow App\\Book.cs",
-              "RelativeToolTip": "Book Borrow App\\Book.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAQwAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T16:46:35.542Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\mefer\\Desktop\\Book-Borrow-App\\Book Borrow App\\Program.cs",
-              "RelativeDocumentMoniker": "Book Borrow App\\Program.cs",
-              "ToolTip": "C:\\Users\\mefer\\Desktop\\Book-Borrow-App\\Book Borrow App\\Program.cs",
-              "RelativeToolTip": "Book Borrow App\\Program.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T08:31:12.22Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -135,74 +40,48 @@
               "RelativeDocumentMoniker": "Book Borrow App\\User.cs",
               "ToolTip": "C:\\Users\\mefer\\Desktop\\Book-Borrow-App\\Book Borrow App\\User.cs",
               "RelativeToolTip": "Book Borrow App\\User.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAIA6wA0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAIwCQAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T17:47:53.893Z",
+              "WhenOpened": "2025-05-06T20:44:37.091Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Book.cs",
+              "DocumentMoniker": "C:\\Users\\mefer\\Desktop\\Book-Borrow-App\\Book Borrow App\\Book.cs",
+              "RelativeDocumentMoniker": "Book Borrow App\\Book.cs",
+              "ToolTip": "C:\\Users\\mefer\\Desktop\\Book-Borrow-App\\Book Borrow App\\Book.cs",
+              "RelativeToolTip": "Book Borrow App\\Book.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAgwCEAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T16:46:35.542Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\mefer\\Desktop\\Book-Borrow-App\\Book Borrow App\\Program.cs",
+              "RelativeDocumentMoniker": "Book Borrow App\\Program.cs",
+              "ToolTip": "C:\\Users\\mefer\\Desktop\\Book-Borrow-App\\Book Borrow App\\Program.cs",
+              "RelativeToolTip": "Book Borrow App\\Program.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAmwDAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T08:31:12.22Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "LibraryService.cs",
-              "DocumentMoniker": "C:\\Users\\mefer\\Desktop\\Book-Borrow-App\\Book Borrow App\\LibraryService.cs",
-              "RelativeDocumentMoniker": "Book Borrow App\\LibraryService.cs",
-              "ToolTip": "C:\\Users\\mefer\\Desktop\\Book-Borrow-App\\Book Borrow App\\LibraryService.cs",
-              "RelativeToolTip": "Book Borrow App\\LibraryService.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAvwBwAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T17:49:30.723Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "FileManager.cs",
-              "DocumentMoniker": "C:\\Users\\mefer\\Desktop\\Book-Borrow-App\\Book Borrow App\\FileManager.cs",
-              "RelativeDocumentMoniker": "Book Borrow App\\FileManager.cs",
-              "ToolTip": "C:\\Users\\mefer\\Desktop\\Book-Borrow-App\\Book Borrow App\\FileManager.cs",
-              "RelativeToolTip": "Book Borrow App\\FileManager.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAQwB0AAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T17:48:51.998Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "LibraryRepository.cs",
-              "DocumentMoniker": "C:\\Users\\mefer\\Desktop\\Book-Borrow-App\\Book Borrow App\\LibraryRepository.cs",
-              "RelativeDocumentMoniker": "Book Borrow App\\LibraryRepository.cs",
-              "ToolTip": "C:\\Users\\mefer\\Desktop\\Book-Borrow-App\\Book Borrow App\\LibraryRepository.cs",
-              "RelativeToolTip": "Book Borrow App\\LibraryRepository.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAjwBEAAABFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T17:46:39.857Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
               "Title": "Print.cs",
               "DocumentMoniker": "C:\\Users\\mefer\\Desktop\\Book-Borrow-App\\Book Borrow App\\Print.cs",
               "RelativeDocumentMoniker": "Book Borrow App\\Print.cs",
               "ToolTip": "C:\\Users\\mefer\\Desktop\\Book-Borrow-App\\Book Borrow App\\Print.cs",
               "RelativeToolTip": "Book Borrow App\\Print.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAAvwDsAAAA1AAAAAAAAAA==",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAawCIAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-14T14:36:00.532Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ManageOption.cs",
-              "DocumentMoniker": "C:\\Users\\mefer\\Desktop\\Book-Borrow-App\\Book Borrow App\\ManageOption.cs",
-              "RelativeDocumentMoniker": "Book Borrow App\\ManageOption.cs",
-              "ToolTip": "C:\\Users\\mefer\\Desktop\\Book-Borrow-App\\Book Borrow App\\ManageOption.cs",
-              "RelativeToolTip": "Book Borrow App\\ManageOption.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T14:35:52.421Z",
               "EditorCaption": ""
             }
           ]

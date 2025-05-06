@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.WebSockets;
+using static System.Reflection.Metadata.BlobBuilder;
 
 namespace Book_Borrow_App
 {
@@ -13,6 +15,7 @@ namespace Book_Borrow_App
 
             var menuActions = new Dictionary<string, Action>
             {
+                {"                   Library Book Borrow                   ", () => { } },
                 { "Manage Books", () => ManageBooks(books) },
                 { "Manage Users", () => ManageUsers(users) },
                 { "Exit", () => Environment.Exit(0) }
@@ -25,25 +28,24 @@ namespace Book_Borrow_App
         private static void ManageBooks(List<Book> books)
         {
             Console.Clear();
-            Console.WriteLine("Manage Books:");
-            foreach (var book in books)
-            {
-                Console.WriteLine($"(ID: {book.Info.Id}) - {book.Info.Title} - Author: {book.Info.Author}");
-            }
-            Console.WriteLine("\nPress any key to return to the main menu...");
-            Console.ReadKey();
+            var booksString = books.Select(book => book.Print()).ToList();
+            booksString.Insert(0, "Manage Books:");
+            var menuActions = booksString.ToDictionary(book => book, act => (Action)(() => { }));
+
+            var print = new Print(menuActions);
+            print.PrintMenu();
         }
 
         private static void ManageUsers(List<User> users)
         {
             Console.Clear();
-            Console.WriteLine("Manage Users:");
-            foreach (var user in users)
-            {
-                Console.WriteLine($"- {user.Name} (ID: {user.Id})");
-            }
-            Console.WriteLine("\nPress any key to return to the main menu...");
-            Console.ReadKey();
+
+            var usersString = users.Select(book => book.Print()).ToList();
+            usersString.Insert(0, "Manage Users:");
+            var menuActions = usersString.ToDictionary(user => user, act => (Action)(() => { }));
+
+            var print = new Print(menuActions);
+            print.PrintMenu();
         }
     }
 }

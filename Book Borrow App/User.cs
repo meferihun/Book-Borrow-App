@@ -30,6 +30,11 @@ namespace Book_Borrow_App
             book.Return();
             BorrowedBookInfos.Remove(book.Info);
         }
+
+        public string Print()
+        {
+            return $"(ID: {Id}) - {Name} - Borrowed Books: {string.Join(", ", BorrowedBookInfos.Select(b => b.Title))}";
+        }
     }
 
 

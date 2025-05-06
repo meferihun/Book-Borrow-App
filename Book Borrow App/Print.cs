@@ -12,7 +12,7 @@ namespace Book_Borrow_App
         public Print(Dictionary<string, Action> menuActions)
         {
             _menuActions = menuActions;
-            CurrentIndex = 0;
+            CurrentIndex = 1;
         }
 
         public void PrintMenu()
@@ -32,11 +32,11 @@ namespace Book_Borrow_App
             switch (keyInfo.Key)
             {
                 case ConsoleKey.UpArrow:
-                    CurrentIndex = (CurrentIndex - 1 + _menuActions.Count) % _menuActions.Count;
+                    CurrentIndex = CurrentIndex - 1 > 0 ? CurrentIndex - 1 : CurrentIndex;
                     break;
 
                 case ConsoleKey.DownArrow:
-                    CurrentIndex = (CurrentIndex + 1 + _menuActions.Count) % _menuActions.Count;
+                    CurrentIndex = CurrentIndex + 1 < _menuActions.Count ? CurrentIndex + 1 : CurrentIndex;
                     break;
 
                 case ConsoleKey.Enter:
@@ -46,7 +46,7 @@ namespace Book_Borrow_App
                     break;
 
                 default:
-                    CurrentIndex = 0;
+                    CurrentIndex = 1;
                     break;
             }
         }
@@ -54,19 +54,23 @@ namespace Book_Borrow_App
         private void DisplayMenu()
         {
             Console.ForegroundColor = ConsoleColor.Yellow;
-            Console.WriteLine("                   Library Book Borrow                   ");
+            var title = _menuActions.Keys.ElementAt(0);
+            Console.WriteLine(title);
             Console.ResetColor();
 
-            foreach (var option in _menuActions.Keys)
+            foreach (var option in _menuActions.Keys.Skip(0))
             {
-                if (option == _menuActions.ElementAt(CurrentIndex).Key)
+                if (option != title)
                 {
-                    Console.ForegroundColor = ConsoleColor.Green;
-                    Console.WriteLine($"---> {option} <---");
-                    Console.ResetColor();
+                    if (option == _menuActions.ElementAt(CurrentIndex).Key)
+                    {
+                        Console.ForegroundColor = ConsoleColor.Green;
+                        Console.WriteLine($"---> {option} <---");
+                        Console.ResetColor();
+                    }
+                    else
+                        Console.WriteLine($"     {option}     ");
                 }
-                else
-                    Console.WriteLine($"     {option}     ");
             }
         }
     }

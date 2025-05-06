@@ -6,8 +6,6 @@ using System.Threading.Tasks;
 
 namespace Book_Borrow_App
 {
-    
-
     public partial class Book
     {
         public BookInfo Info { get; private set; }
@@ -29,6 +27,11 @@ namespace Book_Borrow_App
         {
             if (!IsBorrowed) throw new InvalidOperationException("A könyv nem volt kikölcsönözve.");
             IsBorrowed = false;
+        }
+
+        public string Print()
+        {
+            return $"(ID: {Info.Id}) - {Info.Title} - Author: {Info.Author}";
         }
     }
 

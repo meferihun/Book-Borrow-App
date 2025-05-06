@@ -1,7 +1,5 @@
 ﻿namespace Book_Borrow_App
 {
-    
-
     public record class BookInfo
     {
         public required int Id { get; init; }
